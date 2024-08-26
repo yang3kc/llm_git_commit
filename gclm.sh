@@ -7,7 +7,7 @@ $(git diff --cached)
 **Criteria:**
 
 1. **Format:** Each commit message must follow the conventional commits format,
-which is \`<type>(<scope>): <description>\`.
+which is \`<emoji><type>(<scope>): <description>\`.
 2. **Relevance:** Avoid mentioning a module name unless it's directly relevant
 to the change.
 3. **Enumeration:** List the commit messages from 1 to 5.
@@ -16,10 +16,10 @@ the change made.
 
 **Commit Message Examples:**
 
-- fix(app): add password regex pattern
-- test(unit): add new test cases
-- style: remove unused imports
-- refactor(pages): extract common code to \`utils/wait.ts\`
+- 🐛 fix(app): add password regex pattern
+- 🧪 test(unit): add new test cases
+- 💄 style: remove unused imports
+- 🔄 refactor(pages): extract common code to \`utils/wait.ts\`
 
 **Recent Commits on Repo for Reference:**
 
@@ -32,10 +32,10 @@ $(git log -n 10 --pretty=format:'%h %s')
 Follow this output template and ONLY output raw commit messages without spacing,
 numbers or other decorations.
 
-fix(app): add password regex pattern
-test(unit): add new test cases
-style: remove unused imports
-refactor(pages): extract common code to \`utils/wait.ts\`
+🐛 fix(app): add password regex pattern
+🧪 test(unit): add new test cases
+💄 style: remove unused imports
+🔄 refactor(pages): extract common code to \`utils/wait.ts\`
 
 **Instructions:**
 
