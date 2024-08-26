@@ -23,6 +23,7 @@ customCommands:
   - key: <c-a>
     description: Pick AI commit
     command: gclm
+    context: global
     subprocess: true
 ```
 
