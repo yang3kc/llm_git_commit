@@ -62,5 +62,5 @@ for your best commit, not the best average commit. It's better to cover more
 scenarios than include a lot of overlap.
 
 Write your 5 commit messages below in the format shown in Output Template section above." \
-    | fzf --height 40% --border --ansi --preview "echo {}" --preview-window=up:wrap \
+    | fzf --height 100% --border --ansi --preview "echo {}" --preview-window=up:wrap \
     | xargs -I {} git commit -m "{}"
