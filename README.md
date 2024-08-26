@@ -27,3 +27,11 @@ customCommands:
 ```
 
 This allows you to generate commit messages with `Ctrl-a` after you stage your changes.
+
+# Mechanism
+
+The `gclm.sh` script is a shell script that uses `llm` to generate commit messages.
+
+It provides the git diff as context to the LLM, and instructions on how to format the output.
+Finally, it uses `fzf` to let you select one of the generated commit messages and apply it.
+You can modify the prompt to change the behavior of the LLM.
