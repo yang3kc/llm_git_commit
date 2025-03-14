@@ -10,7 +10,7 @@ $(git diff --cached)
 which is \`<emoji><type>(<scope>): <description>\`.
 2. **Relevance:** Avoid mentioning a module name unless it's directly relevant
 to the change.
-3. **Enumeration:** List the commit messages from 1 to 5.
+3. **Enumeration:** List the commit messages from 1 to 3.
 4. **Clarity and Conciseness:** Each message should clearly and concisely convey
 the change made.
 
@@ -55,12 +55,12 @@ and understanding of the project over time.
 - If multiple changes are present, make sure you capture them all in each commit
 message.
 
-Keep in mind you will suggest 5 commit messages. Only 1 will be used. It's
+Keep in mind you will suggest 3 commit messages. Only 1 will be used. It's
 better to push yourself (esp to synthesize to a higher level) and maybe wrong
-about some of the 5 commits because only one needs to be good. I'm looking
+about some of the 3 commits because only one needs to be good. I'm looking
 for your best commit, not the best average commit. It's better to cover more
 scenarios than include a lot of overlap.
 
-Write your 5 commit messages below in the format shown in Output Template section above." \
+Write your 3 commit messages below in the format shown in Output Template section above." \
     | fzf --height 100% --border --ansi --preview "echo {}" --preview-window=up:wrap \
     | xargs -I {} git commit -m "{}"
