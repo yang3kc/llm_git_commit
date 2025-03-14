@@ -1,4 +1,4 @@
-llm "Please suggest 5 commit messages, given the following diff:
+llm "Please suggest 3 commit messages, given the following diff:
 
 \`\`\`diff
 $(git diff --cached)
