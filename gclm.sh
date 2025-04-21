@@ -1,4 +1,4 @@
-llm "Please suggest 3 git commit messages, given the following diff:
+llm -m openai/gpt-4.1-nano "Please suggest 3 git commit messages, given the following diff:
 
 \`\`\`diff
 $(git diff --cached)
