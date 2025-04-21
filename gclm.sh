@@ -16,7 +16,6 @@ $(git diff --cached)
 🐛 fix(app): add password regex pattern
 🧪 test(unit): add new test cases
 💄 style: remove unused imports
-🔄 refactor(pages): extract common code to \`utils/wait.ts\`
 
 Write your 3 commit messages below in the required format. Each commit message should be on a new line. Return only the commit messages, no other text or formatting." \
     | fzf --height 100% --border --ansi --preview "echo {}" --preview-window=up:wrap \
