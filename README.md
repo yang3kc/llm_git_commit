@@ -29,7 +29,7 @@ For lazygit users, you can add the following to your [config file](https://githu
   command: gccl
   context: global
   loadingText: "Generating commit message..."
-  output: terminal
+  output: popup
 ```
 
 ## How to use
