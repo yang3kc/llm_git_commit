@@ -12,7 +12,12 @@ Two different approaches are implemented:
 
 You need to install Claude Code and log in to your Claude account.
 
-After you clone the repo, you can move (or create a symlink to) the `gccl.sh` file to a directory in your PATH, e.g. `/usr/local/bin`.
+After you clone the repo, you can move the `gccl.sh` file to a directory in your PATH, e.g. `/usr/local/bin`.
+You can also create a symlink to the file:
+
+```
+ln -s /path/to/gccl.sh /usr/local/bin/gccl
+```
 
 Then, under a git repo, after you stage your changes, you can run `gccl` to generate commit messages.
 
@@ -42,6 +47,11 @@ Inspired by https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285 an
 ## How to use
 
 After you clone the repo, you can move (or create a symlink to) the `gclm.sh` file to a directory in your PATH, e.g. `/usr/local/bin`.
+You can also create a symlink to the file:
+
+```
+ln -s /path/to/gclm.sh /usr/local/bin/gclm
+```
 
 Then, under a git repo, after you stage your changes, you can run `gclm` to generate commit messages.
 
