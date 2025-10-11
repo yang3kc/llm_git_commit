@@ -1,4 +1,4 @@
-llm -m groq-llama3.1-8b "Please suggest 3 git commit messages, given the following diff:
+llm -m gpt-4o-mini "Please suggest 3 git commit messages, given the following diff:
 
 \`\`\`diff
 $(git diff --cached)
