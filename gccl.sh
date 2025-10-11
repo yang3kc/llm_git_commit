@@ -1,1 +1,1 @@
-claude -p "Create a git commit based on the git status, git diff, and git log. Follow the convention of the commit messages" --allowedTools "Bash(git add:*), Bash(git status:*), Bash(git commit:*)"
+claude --verbose -p "Create a git commit based on the git status, git diff, and git log. Follow the convention of the commit messages" --allowedTools "Bash(git add:*), Bash(git status:*), Bash(git commit:*)"
